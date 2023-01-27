@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SocialBook - Rana Ahammed</title>
+  <link rel="stylesheet" href="style3.css">
+  <script src="https://kit.fontawesome.com/be08ddff24.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <nav>
+
+    <div class="nav-left">
+      <img src="images3/logo.png" class="logo">
+      <ul>
+        <li><img src="images3/notification.png"></li>
+        <li><img src="images3/inbox.png"></li>
+        <li><img src="images3/video.png"></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+
+      <div class="search-box">
+        <img src="images3/search.png">
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+        <img src="images3/profile-pic.png">
+      </div>
+
+    </div>
+<!----------- settings-menu-------->
+<div class="settings-menu"> 
+  
+  <div id="dark-btn">
+    <span></span>
+  </div>
+  
+  <div class="settings-menu-inner">
+    
+    
+    <div class="user-profile">
+      <img src="images3/profile-pic.png">
+      <div>
+        <p>John Nickolson</p>
+        <a href="#">See your profile</a>
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="user-profile">     
+      <img src="images3/feedback.png">
+      <div>
+        <p>Give Feedback</p>
+        <a href="#">Help us to improve the new design</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="settings-links">
+      <img src="images3/setting.png" class="settings-icon">
+      <a href="#">Settings & Privacy <img src="images3/arrow.png" width="10px">
+      </a>
+    </div>
+    
+    
+    <div class="settings-links">
+      <img src="images3/help.png" class="settings-icon">
+      <a href="#">Help & Support<img src="images3/arrow.png" width="10px">
+      </a>
+    </div>
+    
+    
+    <div class="settings-links">
+      <img src="images3/display.png" class="settings-icon">
+      <a href="#">Display & Accessibility<img src="images3/arrow.png" width="10px">
+      </a>
+    </div>
+    
+    
+    <div class="settings-links">
+      <img src="images3/logout.png" class="settings-icon">
+      <a href="#">Logout<img src="images3/arrow.png" width="10px">
+      </a>
+    </div>
+
+
+
+  </div>
+  
+
+</div>
+
+
+  </nav>
+
+  <div class="container">
+
+    <!---------------left-sidebar---------------->
+    
+    <div class="left-sidebar">
+      <div class="imp-links">
+        <a href="#"><img src="images3/news.png">Latest News</a>
+        <a href="#"><img src="images3/friends.png">Friends</a>
+        <a href="#"><img src="images3/group.png">Group</a>
+        <a href="#"><img src="images3/marketplace.png">Marketplace</a>
+        <a href="#"><img src="images3/watch.png">Watch</a>
+        <a href="#">See More</a>
+      </div>
+
+      <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="images3/shortcut-1.png">Web Developers</a>
+        <a href="#"><img src="images3/shortcut-2.png">Web Design Course</a>
+        <a href="#"><img src="images3/shortcut-3.png">Full Stack Developers</a>
+        <a href="#"><img src="images3/shortcut-4.png">Website Experts</a>
+      </div>
+    
+    
+    </div>
+
+    <!---------------main-content---------------->
+    
+    <div class="main-content">
+
+
+      <div class="story-gallery">
+        <div class="story story1">
+          <img src="images3/upload.png">
+          <p>Post Story</p>
+        </div>
+        <div class="story story2">
+          <img src="images3/member-1.png">
+          <p>Alison</p>
+        </div>
+        <div class="story story3">
+          <img src="images3/member-2.png">
+          <p>Jackson</p>
+        </div>
+        <div class="story story4">
+          <img src="images3/member-3.png">
+          <p>Samona</p>
+        </div>
+        <div class="story story5">
+          <img src="images3/member-4.png">
+          <p>John Doe</p>
+        </div>
+      </div>
+
+
+     <div class="write-post-container">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <small>Public <i class="fas fa-caret-down"></i></small>
+          </div>
+        </div>
+      
+
+        <div class="post-input-container">
+          <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+          <div class="add-post-links">
+            <a href="#"><img src="images3/live-video.png">Live video</a> 
+            <a href="#"><img src="images3/photo.png">Photo/Video</a> 
+            <a href="#"><img src="images3/feeling.png">Feeling/Activity</a> 
+          </div>
+        </div>
+     </div>
+
+    <div class="post-container">
+      <div class="post-row">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <span>June 24. 2021 1:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+      
+      <p class="post-text">Subscribe <span>@Rana Ahammed</span> Youtube Channel to watch more videos on website designs and UI designs. <a href="#">#Rana Ahammed</a> <a href="#">#YouTube Channel</a> </p>
+      <img src="images3/feed-image-1.png" class="post-img">
+
+      <div class="post-row">
+        <div class="activity-icons">
+           <div><img src="images3/like-blue.png">120</div>
+           <div><img src="images3/comments.png">45</div>
+           <div><img src="images3/share.png">25</div>
+        </div>
+        
+
+        <div class="post-profile-icon">
+            <img src="images3/profile-pic.png"> <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="post-container">
+      <div class="post-row">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <span>June 24. 2021 1:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+      
+      <p class="post-text">Like and share this video with friends, tag<span>@Rana Ahammed</span> facebook page on your post, ask your doubts in the comments  <a href="#">#Rana Ahammed</a> <a href="#">#YouTube Channel</a> </p>
+      <img src="images3/feed-image-2.png" class="post-img">
+
+      <div class="post-row">
+        <div class="activity-icons">
+           <div><img src="images3/like.png">120</div>
+           <div><img src="images3/comments.png">45</div>
+           <div><img src="images3/share.png">25</div>
+        </div>
+        
+
+        <div class="post-profile-icon">
+            <img src="images3/profile-pic.png"> <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="post-container">
+      <div class="post-row">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <span>June 24. 2021 1:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+      
+      <p class="post-text">Subscribe <span>@Rana Ahammed</span> Youtube Channel to watch more videos on website designs and UI designs. <a href="#">#Rana Ahammed</a> <a href="#">#YouTube Channel</a> </p>
+      <img src="images3/feed-image-3.png" class="post-img">
+
+      <div class="post-row">
+        <div class="activity-icons">
+           <div><img src="images3/like-blue.png">120</div>
+           <div><img src="images3/comments.png">45</div>
+           <div><img src="images3/share.png">25</div>
+        </div>
+        
+
+        <div class="post-profile-icon">
+            <img src="images3/profile-pic.png"> <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="post-container">
+      <div class="post-row">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <span>June 24. 2021 1:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+      
+      <p class="post-text">Subscribe <span>@Rana Ahammed</span> Youtube Channel to watch more videos on website designs and UI designs. <a href="#">#Rana Ahammed</a> <a href="#">#YouTube Channel</a> </p>
+      <img src="images3/feed-image-4.png" class="post-img">
+
+      <div class="post-row">
+        <div class="activity-icons">
+           <div><img src="images3/like-blue.png">120</div>
+           <div><img src="images3/comments.png">45</div>
+           <div><img src="images3/share.png">25</div>
+        </div>
+        
+
+        <div class="post-profile-icon">
+            <img src="images3/profile-pic.png"> <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="post-container">
+      <div class="post-row">
+        <div class="user-profile">
+          <img src="images3/profile-pic.png">
+          <div>
+            <p>John Nickolson</p>
+            <span>June 24. 2021 1:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+      
+      <p class="post-text">Subscribe <span>@Rana Ahammed</span> Youtube Channel to watch more videos on website designs and UI designs. <a href="#">#Rana Ahammed</a> <a href="#">#YouTube Channel</a> </p>
+      <img src="images3/feed-image-5.png" class="post-img">
+
+      <div class="post-row">
+        <div class="activity-icons">
+           <div><img src="images3/like-blue.png">120</div>
+           <div><img src="images3/comments.png">45</div>
+           <div><img src="images3/share.png">25</div>
+        </div>
+        
+
+        <div class="post-profile-icon">
+            <img src="images3/profile-pic.png"> <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+ 
+
+    </div>
+  
+    <!---------------right-sidebar---------------->
+  
+    <div class="right-sidebar">
+     <div class="sidebar-title">
+      <h4>Events</h4>
+      <a href="#">See All</a>
+    </div>
+
+    <div class="event">
+      <div class="left-event">
+        <h3>18</h3>
+        <span>March</span>
+      </div>
+
+      <div class="right-event">
+        <h4>Social Media</h4>
+        <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+        <a href="#">More info</a>
+      </div>
+    </div>
+    
+    
+    <div class="event">
+      <div class="left-event">
+        <h3>22</h3>
+        <span>June</span>
+      </div>
+
+      <div class="right-event">
+        <h4>Mobile Marketing</h4>
+        <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+        <a href="#">More info</a>
+      </div>
+    </div>
+
+    <div class="sidebar-title">
+      <h4>Advertisement</h4>
+      <a href="#">Close</a>
+    </div>
+    <img src="images3/advertisement.png" class="sidebar-ads">
+
+    <div class="sidebar-title">
+      <h4>Conversation</h4>
+      <a href="#">Hide Chat</a>
+    </div>
+
+    <div class="online-list">
+      <div class="online">
+        <img src="images3/member-1.png">
+      </div>
+      <p>Alison Mina</p>
+    </div>
+    <div class="online-list">
+      <div class="online">
+        <img src="images3/member-2.png">
+      </div>
+      <p>Jackson Aston</p>
+    </div>
+    <div class="online-list">
+      <div class="online">
+        <img src="images3/member-3.png">
+      </div>
+      <p>Samona Rose</p>
+    </div>
+
+    </div> 
+  </div>
+
+  <div class="footer">
+    <p>Copyright 2021 - Rana Ahammed YouTube Channel</p>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html> 
